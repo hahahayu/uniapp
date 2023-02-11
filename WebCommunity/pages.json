@@ -1,0 +1,152 @@
+{
+	"lazyCodeLoading":"requiredComponents",
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/interviewQuestion/interviewQuestion",
+			"style": {
+				"navigationBarTitleText": "刷面试题",
+				"navigationStyle": "custom",
+				"backgroundColor": "#f0f3f7",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+            "path" : "pages/interviewProcess/interviewProcess",                                                                            
+            "style": {
+            	"navigationBarTitleText": "面试流程",
+            	"navigationStyle": "custom",
+            	"backgroundColor": "#f0f3f7",
+            	"enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "pages/myContract/myContract",
+		    "style": {
+		    	"navigationBarTitleText": "我的协议",
+		    	"navigationStyle": "custom",
+		    	"backgroundColor": "#f0f3f7",
+		    	"enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+            "path" : "pages/myCard/myCard",
+            "style": {
+            	"navigationBarTitleText": "我的名片",
+            	"navigationStyle": "custom",
+            	"backgroundColor": "#f0f3f7",
+            	"enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "pages/showContract/showContract",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/startSchool/startSchool",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/enterSchool/enterSchool",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/consultingHelp/consultingHelp",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/subject/subject",
+			"style": {
+				"navigationBarTitleText": "刷题",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#f0f3f7",
+				"scrollIndicator": "none"
+			}
+		},
+		{
+			"path": "pages/showManage/showManage",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/signCanvas/sign-canvas",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/signContract/sign-contract",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"custom": true, //开启自定义tabbar
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/interviewQuestion/interviewQuestion",
+				"text": "刷面试题"
+			},
+			{
+				"pagePath": "pages/interviewProcess/interviewProcess",
+				"text": "面试流程"
+			},
+			{
+				"pagePath": "pages/myContract/myContract",
+				"text": "我的协议"
+			},
+			{
+				"pagePath": "pages/myCard/myCard",
+				"text": "我的名片"
+			}
+		]
+	}
+}
